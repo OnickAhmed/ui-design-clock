@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== BOXICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--==================== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Clock Ui</title>
+  </head>
+  <body>
+    <section class="clock container">
+      <div class="clock_container grid">
+        <div class="clock_content grid">
+          <div class="clock_circle">
+            <span class="clock_twelve"></span>
+            <span class="clock_three"></span>
+            <span class="clock_six"></span>
+            <span class="clock_nine"></span>
+
+            <div class="clock_rounder"></div>
+            <div class="clock_hour" id="clock-hour"></div>
+            <div class="clock_min" id="clock-min"></div>
+            <div class="clock_sec" id="clock-sec"></div>
+
+            <div class="clock_theme">
+                <i class='bx bxs-moon' id="theme-button"></i>
+            </div>
+          </div>
+          <div>
+            <div class="clock_text">
+              <div class="clock_text-hour" id="text-hour"></div>
+              <div class="clock_text-min" id="text-min"></div>
+              <div class="clock_text-sec" id="text-sec"></div>
+              <div class="clock_text-ampm" id="text-ampm"></div>
+            </div>
+            <div class="clock_date">
+              <span id="date-dd">01</span>
+              <span id="date-mm">01</span>
+              <span id="date-yy">2021</span>
+            </div>
+          </div>
+        </div>
+        <a href="#" target="_blank" class="clock_logo">CodeMonk</a>
+      </div>
+    </section>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
